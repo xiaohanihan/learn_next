@@ -25,8 +25,6 @@ export default function NavLinks() {
     <>
       {links.map((link) => {
         const LinkIcon = link.icon;
-        console.log('pathname', pathname)
-        console.log('link.href', link.href)
         return (
           <Link
             key={link.name}
